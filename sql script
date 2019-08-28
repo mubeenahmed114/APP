@@ -1,0 +1,19 @@
+//Database name:-  APP
+
+
+// creating table
+CREATE TABLE Register(
+Firstname varchar(80),
+Middlename varchar(80),
+Lastname varchar(80),
+Email varchar(200),
+Mobile varchar(20),
+password varchar(255),
+);
+
+CREATE TABLE Login(
+Email varchar(100),//Email :-User@gmail.com
+Password varchar(255) //password :- 123456
+);
+
+
